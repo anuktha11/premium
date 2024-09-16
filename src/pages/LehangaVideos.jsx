@@ -24,7 +24,8 @@ const LehengaVideos = () => {
     <div className="lehenga-videos-container">
       <h1>Narayanpeta Lehengas</h1>
       <p className="price">Price: ₹{price}</p>
-      <p className="shipping">Shipping:</p>
+      <p> call: "Call Now For Book Your Favorite one: +91 9442533967"</p>
+      <p className="shipping">Shipping charges:</p>
       <ul>
         <li>Andhra Pradesh & Telangana: ₹{shippingAPTS}</li>
         <li>Other States: ₹{shippingOtherStates}</li>
