@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  color: #5E2590; /* Purple color */
+}
+
+.carousel-section img {
+  width: 100%;
+  height: auto;
+}
+
+.categories-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.category-item {
+  text-align: center;
+}
+
+.category-item img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .categories-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}

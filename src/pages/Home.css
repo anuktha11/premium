@@ -1,0 +1,106 @@
+.home-container {
+    padding: 20px;
+  }
+ .intro h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .intro {
+    background-image: linear-gradient(to right, rgb(97, 7, 97) 0%, #8a198a 50%, #3a0668 100%);
+    /* #5E2590 is a deep purple, and #E6E6FA is lavender */
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+    /* background-color: #5E2590;  */
+   /* background-image: url('../pages/WhatsApp\ Image\ 2024-09-16\ at\ 9.49.17\ AM.jpeg');
+   background-repeat: no-repeat;
+background-size: cover; 
+background-position: center;  */
+   color: white;
+   font-style: italic;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .carousel-section, .categories-section {
+    margin: 30px 0;
+  }
+  
+  .categories-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  
+  .category-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  
+  h3 {
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .categories-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .intro {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.carousel-section {
+  margin-bottom: 20px;
+}
+
+.categories-section {
+  text-align: center;
+}
+
+.categories-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category-item {
+  position: relative;
+  text-align: center;
+  margin: 10px;
+  width: 200px; /* Adjust as needed */
+}
+
+.category-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.category-info {
+  margin-top: 10px;
+}
+
+.category-info h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.price {
+  margin-top: 5px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: red;
+  margin-right: 5px;
+}
+
+.offer-price {
+  color: green;
+  font-weight: bold;
+}

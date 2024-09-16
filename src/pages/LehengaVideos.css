@@ -1,0 +1,59 @@
+.lehenga-videos-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #4A2C6D; /* Customize to match your theme */
+  }
+  
+  .price, .shipping {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  
+  .videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .video-wrapper {
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* For smaller devices */
+  @media screen and (max-width: 768px) {
+    .lehenga-videos-container {
+      padding: 10px;
+    }
+  
+    .video-wrapper {
+      max-width: 100%;
+    }
+  }
+  
