@@ -1,61 +1,21 @@
 .home-container {
-    padding: 20px;
-  }
- .intro h1{
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  .intro {
-    background-image: linear-gradient(to right, rgb(97, 7, 97) 0%, #8a198a 50%, #3a0668 100%);
-    /* #5E2590 is a deep purple, and #E6E6FA is lavender */
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-    /* background-color: #5E2590;  */
-   /* background-image: url('../pages/WhatsApp\ Image\ 2024-09-16\ at\ 9.49.17\ AM.jpeg');
-   background-repeat: no-repeat;
-background-size: cover; 
-background-position: center;  */
-   color: white;
-   font-style: italic;
-    padding: 40px;
-    text-align: center;
-  }
-  
-  .carousel-section, .categories-section {
-    margin: 30px 0;
-  }
-  
-  .categories-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-around;
-  }
-  
-  .category-item img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-  }
-  
-  h3 {
-    margin-top: 10px;
-  }
-  
-  @media (max-width: 768px) {
-    .categories-grid {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-  .intro {
-  text-align: center;
-  margin-bottom: 20px;
+  padding: 20px;
 }
 
-.carousel-section {
-  margin-bottom: 20px;
+.intro h1 {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.intro {
+  background-image: linear-gradient(to right, rgb(97, 7, 97) 0%, #8a198a 50%, #3a0668 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-style: italic;
+  padding: 40px;
+  text-align: center;
 }
 
 .categories-section {
@@ -72,13 +32,68 @@ background-position: center;  */
   position: relative;
   text-align: center;
   margin: 10px;
+  width: 200px;
+}
+
+.category-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+.category-info h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.price {
+  margin-top: 5px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: red;
+  margin-right: 5px;
+}
+
+.offer-price {
+  color: green;
+  font-weight: bold;
+}
+
+/* Single Lehenga button at the bottom */
+.lehenga-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.lehenga-button {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lehenga-button:hover {
+  background-color: darkpurple;
+}
+.category-item {
+  position: relative;
+  text-align: center;
+  margin: 10px;
   width: 200px; /* Adjust as needed */
 }
 
 .category-item img {
   width: 100%;
-  height: auto;
+  height: 200px; /* Set a fixed height for all images */
+ /* object-fit: cover;  Ensure the image is cropped to fit */
   border-radius: 8px;
+  border: 2px solid black; /* Add a black border */
 }
 
 .category-info {

@@ -171,7 +171,81 @@ import kurty6 from "../images/kurthi2/WhatsApp Image 2024-09-16 at 10.50.12 PM (
 import kurty7 from "../images/kurthi2/WhatsApp Image 2024-09-16 at 10.50.12 PM.jpeg"
 import kurty8 from "../images/kurthi2/WhatsApp Image 2024-09-16 at 9.26.34 PM.jpeg"
 
+import zkurthi from "../images/kurthi5/1 (1).jpeg"
+import zkurthi1 from "../images/kurthi5/1 (2).jpeg"
+import zkurthi2 from "../images/kurthi5/1 (3).jpeg"
+import zkurthi3 from "../images/kurthi5/1 (4).jpeg"
+import zkurthi4 from "../images/kurthi5/1 (5).jpeg"
+import zkurthi5 from "../images/kurthi5/1 (6).jpeg"
+import zkurthi6 from "../images/kurthi5/1 (7).jpeg"
+import zkurthi7 from "../images/kurthi5/1 (8).jpeg"
+import zkurthi8 from "../images/kurthi5/1 (9).jpeg"
+import zkurthi9 from "../images/kurthi5/1 (10).jpeg"
+import zkurthi10 from "../images/kurthi5/1 (11).jpeg"
+import zkurthi11 from "../images/kurthi5/1 (12).jpeg"
+import zkurthi12 from "../images/kurthi5/1 (13).jpeg"
+import zkurthi13 from "../images/kurthi5/1 (14).jpeg"
+import zkurthi14 from "../images/kurthi5/1 (15).jpeg"
+import zkurthi15 from "../images/kurthi5/1 (16).jpeg"
+import zkurthi16 from "../images/kurthi5/1 (17).jpeg"
+import zkurthi17 from "../images/kurthi5/1 (18).jpeg"
+import zkurthi18 from "../images/kurthi5/1 (19).jpeg"
+import zkurthi19 from "../images/kurthi5/1 (20).jpeg"
+import zkurthi20 from "../images/kurthi5/1 (21).jpeg"
+import zkurthi21 from "../images/kurthi5/1 (22).jpeg"
+import zkurthi22 from "../images/kurthi5/1 (23).jpeg"
+import zkurthi23 from "../images/kurthi5/1 (24).jpeg"
+import zkurthi24 from "../images/kurthi5/1 (25).jpeg"
+import zkurthi25 from "../images/kurthi5/1 (26).jpeg"
+import zkurthi26 from "../images/kurthi5/1 (27).jpeg"
+import zkurthi27 from "../images/kurthi5/1 (28).jpeg"
+import zkurthi28 from "../images/kurthi5/1 (29).jpeg"
+import zkurthi29 from "../images/kurthi5/1 (30).jpeg"
+import zkurthi30 from "../images/kurthi5/1 (31).jpeg"
+import zkurthi31 from "../images/kurthi5/1 (32).jpeg"
+import zkurthi32 from "../images/kurthi5/1 (33).jpeg"
+import zkurthi33 from "../images/kurthi5/1 (34).jpeg"
+import zkurthi34 from "../images/kurthi5/1 (35).jpeg"
+import zkurthi35 from "../images/kurthi5/1 (36).jpeg"
+import zkurthi36 from "../images/kurthi5/1 (37).jpeg"
  
+
+import arkurty from "../images/kurthi3/3 (1).jpeg"
+import arkurty1 from "../images/kurthi3/3 (2).jpeg"
+import arkurty2 from "../images/kurthi3/3 (3).jpeg"
+import arkurty3 from "../images/kurthi3/3 (4).jpeg"
+import arkurty4 from "../images/kurthi3/3 (5).jpeg"
+import arkurty5 from "../images/kurthi3/3 (6).jpeg"
+import arkurty6 from "../images/kurthi3/3 (7).jpeg"
+import arkurty7 from "../images/kurthi3/3 (8).jpeg"
+import arkurty9 from "../images/kurthi3/3 (9).jpeg"
+import arkurty10 from "../images/kurthi3/3 (10).jpeg"
+import arkurty11 from "../images/kurthi3/3 (11).jpeg"
+import arkurty12 from "../images/kurthi3/3 (12).jpeg"
+import arkurty13 from "../images/kurthi3/3 (13).jpeg"
+import arkurty14 from "../images/kurthi3/3 (14).jpeg"
+import arkurty15 from "../images/kurthi3/3 (15).jpeg"
+import arkurty16 from "../images/kurthi3/3 (16).jpeg"
+import arkurty17 from "../images/kurthi3/3 (17).jpeg"
+import arkurty18 from "../images/kurthi3/3 (18).jpeg"
+import arkurty19 from "../images/kurthi3/3 (19).jpeg"
+  import arkurty20 from "../images/kurthi3/3 (20).jpeg" 
+   import arkurty21 from "../images/kurthi3/3 (21).jpeg"
+   import arkurty22 from "../images/kurthi3/3 (22).jpeg"
+   import arkurty23 from "../images/kurthi3/3 (23).jpeg"
+   import arkurty24 from "../images/kurthi3/3 (24).jpeg"
+   import arkurty25 from "../images/kurthi3/3 (25).jpeg"
+   import arkurty26 from "../images/kurthi3/3 (26).jpeg"
+
+
+
+
+
+
+
+
+
+
 const Category = () => {
   const { categoryName } = useParams();
 
@@ -268,7 +342,11 @@ const Category = () => {
   ],
   kurti02:[
 kurty,kurty1,kurty2,kurty3,kurty4,kurty5,kurty6,kurty7,kurty8],
-  
+
+  kurti03:[
+arkurty,arkurty1,arkurty2,arkurty3,arkurty4,arkurty5,arkurty6,arkurty7,arkurty9,arkurty10,arkurty11,arkurty12,arkurty13,arkurty14,arkurty15,arkurty16,arkurty17,arkurty19,arkurty18,arkurty20,arkurty21,arkurty22,arkurty23,arkurty24,arkurty25,arkurty26],
+kurti05:[
+  zkurthi,zkurthi1,zkurthi2,zkurthi3,zkurthi4,zkurthi5,zkurthi6,zkurthi7,zkurthi8,zkurthi9,zkurthi10,zkurthi11,zkurthi12,zkurthi13,zkurthi14,zkurthi15,zkurthi16,zkurthi17,zkurthi18,zkurthi19,zkurthi20,zkurthi21,zkurthi22,zkurthi23,zkurthi24,zkurthi25,zkurthi26,zkurthi27,zkurthi28,zkurthi29,zkurthi30,zkurthi32,zkurthi31,zkurthi33,zkurthi34,zkurthi35,zkurthi36],
   };
 
   // Descriptions for each category
@@ -295,12 +373,34 @@ kurty,kurty1,kurty2,kurty3,kurty4,kurty5,kurty6,kurty7,kurty8],
       title: " Single Kurthi",
       fabric: "Rayon side open",
       size: "Given with image",
-      originalPrice: "₹700",
-      salePrice: "₹360",
-      offer: "Free Shipping on All Orders!",
+      originalPrice: "₹599",
+      salePrice: "₹340 +shipping",
       call: "Call Now For Book Your Favorite Kurti: +91 9442533967",
     },
-     
+    kurti03: {
+      title: "Designer neck  Brand Aram and Zorra Kurtis",
+      fabric: "Rayon and silk available",
+      size: " M,L,XL,XXL",
+      originalPrice: "₹799",
+      salePrice: "₹399 + Shipping",
+      call: "Call Now For Book Your Favorite Kurti: +91 9442533967",
+    },
+    kurti04: {
+      title: " Zorra Kurthis",
+      fabric: "Rayon side open",
+      size: "Given with image",
+      originalPrice: "₹899",
+      salePrice: "₹420 + shipping",
+      call: "Call Now For Book Your Favorite Kurti: +91 9442533967",
+    },
+    kurti05: {
+      title: " Zaarra Kurthis",
+      fabric: "Rayon ,Cotton and Silk",
+      size: " M,L,XL,XXL",
+      originalPrice: "₹599",
+      salePrice: "₹340 + Shipping",
+      call: "Call Now For Book Your Favorite Kurti: +91 9442533967",
+    },
   };
 
   const items = categoryItems[categoryName] || [];
@@ -308,6 +408,15 @@ kurty,kurty1,kurty2,kurty3,kurty4,kurty5,kurty6,kurty7,kurty8],
 
   return (
     <div className="category-container">
+      <div style={{ display: 'flex', justifyContent: 'flex-end', margin: '10px' }}>
+      <Link to="/category/kurti" style={{ margin: '0 10px' }}>Kurti @ 699</Link>
+      <Link to="/lehengas" style={{ margin: '0 10px' }}>Lehengas @ 999</Link>
+      <Link to="/category/kurti01" style={{ margin: '0 10px' }}>Kurti @ 460</Link>
+      <Link to="/category/kurti02" style={{ margin: '0 10px' }}>Kurti @ 340</Link>
+      <Link to="/category/kurti03" style={{ margin: '0 10px' }}>Kurti @ 399</Link>
+      <Link to="/category/kurti05" style={{ margin: '0 10px' }}>Zaarra Kurti @ 340</Link>
+       {/* Add more categories as needed */}
+    </div>
       {/* Description Section */}
       <div className="offer-description">
         <h2>{description.title}</h2>
@@ -317,7 +426,7 @@ kurty,kurty1,kurty2,kurty3,kurty4,kurty5,kurty6,kurty7,kurty8],
         <p style={{ color: "black", marginBottom: "10px" }}>
           <strong>Size</strong> - {description.size}
         </p>
-        {/* <p style={{color:'black', marginBottom:'10px'}}><strong>SALE RATE</strong> - {description.price}</p> */}
+         <p style={{color:'black', marginBottom:'10px'}}><strong>SALE RATE</strong> - {description.salePrice}</p> 
         <p style={{ color: "black", marginBottom: "10px" }}>
           {description.offer}
         </p>
@@ -343,9 +452,18 @@ kurty,kurty1,kurty2,kurty3,kurty4,kurty5,kurty6,kurty7,kurty8],
           </div>
         ))}
       </div>
-
+      <div style={{ display: 'flex', justifyContent: 'flex-end', margin: '10px' }}>
+      <Link to="/category/kurti" style={{ margin: '0 10px' }}>Kurti @ 699</Link>
+      <Link to="/lehengas" style={{ margin: '0 10px' }}>Lehengas @ 999</Link>
+      <Link to="/category/kurti01" style={{ margin: '0 10px' }}>Kurti @ 460</Link>
+      <Link to="/category/kurti02" style={{ margin: '0 10px' }}>Kurti @ 340</Link>
+      <Link to="/category/kurti03" style={{ margin: '0 10px' }}>Kurti @ 399</Link>
+      <Link to="/category/kurti05" style={{ margin: '0 10px' }}>Zaarra Kurti @ 340</Link>
+       {/* Add more categories as needed */}
+    </div>
+    <p>Contact us: +91-9442533967</p>
       {/* Category Buttons */}
-      <div className="category-buttons">
+      {/* <div className="category-buttons">
         <Link to="/kurti" className="category-button">
           Kurti
         </Link>
@@ -358,7 +476,7 @@ kurty,kurty1,kurty2,kurty3,kurty4,kurty5,kurty6,kurty7,kurty8],
         <Link to="/embroiderykurthi" className="category-button">
           Embroidery Kurthi
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

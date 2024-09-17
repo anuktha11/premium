@@ -1,6 +1,6 @@
 import React from 'react';
 import './LehengaVideos.css'; // Optional: For custom styles
-
+import { Link } from 'react-router-dom'
 // Importing the video files from the images folder
 import video1 from '../images/lehanga/WhatsApp Video 2024-09-16 at 11.05.42 PM (1).mp4';
 import video2 from '../images/lehanga/one.mp4';
@@ -83,7 +83,16 @@ const LehengaVideos = () => {
             <source src={video2} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-        </div>  
+        </div> 
+        <div style={{ display: 'flex', justifyContent: 'flex-end', margin: '10px' }}>
+      <Link to="/category/kurti" style={{ margin: '0 10px' }}>Kurti @699</Link>
+      <Link to="/lehengas" style={{ margin: '0 10px' }}>Lehengas @ 999</Link>
+      <Link to="/category/kurti01" style={{ margin: '0 10px' }}>Kurti @460</Link>
+      <Link to="/category/kurti02" style={{ margin: '0 10px' }}>Kurti @ 340</Link>
+      <Link to="/category/kurti03" style={{ margin: '0 10px' }}>Kurti @ 399</Link>
+      <Link to="/category/kurti05" style={{ margin: '0 10px' }}>Zaarra Kurti @ 340</Link>
+       {/* Add more categories as needed */}
+    </div> 
       </div>
     </div>
   );
