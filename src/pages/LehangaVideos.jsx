@@ -22,14 +22,14 @@ const LehengaVideos = () => {
 
   return (
     <div className="lehenga-videos-container">
-       <div style={{ display: 'flex', justifyContent: 'flex-end', margin: '30px' }}>
-       <Link to="/ " style={{ margin: '0 10px' }}>Home</Link>
+<div className="link-container">
+         <Link to="/ " style={{ margin: '0 10px' }}>Home</Link>
       <Link to="/category/kurti" style={{ margin: '0 10px' }}>Kurti @ 699</Link>
       <Link to="/lehengas" style={{ margin: '0 10px' }}>Lehengas @ 999</Link>
       <Link to="/category/kurti01" style={{ margin: '0 10px' }}>Kurti @ 460</Link>
       <Link to="/category/kurti02" style={{ margin: '0 10px' }}>Kurti @ 340</Link>
       <Link to="/category/kurti03" style={{ margin: '0 10px' }}>Kurti @ 399</Link>
-      <Link to="/category/kurti05" style={{ margin: '0 10px' }}>Zaarra Kurti @ 340</Link>
+      <Link to="/category/kurti05" style={{ margin: '0 10px' }}>Top @ 340</Link>
        {/* Add more categories as needed */}
     </div>
       <h1>Narayanpeta Lehengas</h1>
@@ -94,14 +94,14 @@ const LehengaVideos = () => {
             Your browser does not support the video tag.
           </video>
         </div> 
-        <div style={{ display: 'flex', justifyContent: 'flex-end', margin: '10px' }}>
-        <Link to="/ " style={{ margin: '0 10px' }}>Home</Link>
+        <div className="link-container">
+                  <Link to="/ " style={{ margin: '0 10px' }}>Home</Link>
       <Link to="/category/kurti" style={{ margin: '0 10px' }}>Kurti @699</Link>
       <Link to="/lehengas" style={{ margin: '0 10px' }}>Lehengas @ 999</Link>
       <Link to="/category/kurti01" style={{ margin: '0 10px' }}>Kurti @460</Link>
       <Link to="/category/kurti02" style={{ margin: '0 10px' }}>Kurti @ 340</Link>
       <Link to="/category/kurti03" style={{ margin: '0 10px' }}>Kurti @ 399</Link>
-      <Link to="/category/kurti05" style={{ margin: '0 10px' }}>Zaarra Kurti @ 340</Link>
+      <Link to="/category/kurti05" style={{ margin: '0 10px' }}>top @ 340</Link>
        {/* Add more categories as needed */}
     </div> 
       </div>

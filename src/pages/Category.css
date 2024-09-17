@@ -112,3 +112,41 @@ button {
     border-radius: 5px;
     cursor: pointer;
   }
+  /* Link container styles */
+.link-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap; /* This makes the links wrap on smaller screens */
+    margin: 10px;
+  }
+  
+  .link-container a {
+    margin: 0 10px;
+    font-size: 1rem; /* Default font size */
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .link-container a:hover {
+    color: #4A2C6D; /* Hover effect */
+  }
+  .link-container {
+    justify-content: center; /* Center the links on smaller screens */
+    margin: 0; /* Reduce margin */
+  }
+
+  .link-container a {
+    margin: 5px;
+    font-size: 0.8rem; /* Reduce font size on smaller screens */
+    padding: 5px 8px;
+  }
+
+
+/* Even smaller screens */
+@media screen and (max-width: 480px) {
+  .link-container a {
+    font-size: 0.7rem; /* Further reduce font size */
+    margin: 3px;
+  }
+}  

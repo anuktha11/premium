@@ -408,14 +408,14 @@ kurti05:[
 
   return (
     <div className="category-container">
-      <div style={{ display: 'flex', justifyContent: 'flex-end', margin: '10px' }}>
-      <Link to="/ " style={{ margin: '0 10px' }}>Home</Link>
+<div className="link-container">
+        <Link to="/ " style={{ margin: '0 10px' }}>Home</Link>
       <Link to="/category/kurti" style={{ margin: '0 10px' }}>Kurti @ 699</Link>
       <Link to="/lehengas" style={{ margin: '0 10px' }}>Lehengas @ 999</Link>
       <Link to="/category/kurti01" style={{ margin: '0 10px' }}>Kurti @ 460</Link>
-      <Link to="/category/kurti02" style={{ margin: '0 10px' }}>Kurti @ 340</Link>
+      <Link to="/category/kurti02" style={{ margin: '0 10px' }}>kurti @ 340</Link>
       <Link to="/category/kurti03" style={{ margin: '0 10px' }}>Kurti @ 399</Link>
-      <Link to="/category/kurti05" style={{ margin: '0 10px' }}>Zaarra Kurti @ 340</Link>
+      <Link to="/category/kurti05" style={{ margin: '0 10px' }}> top @ 340</Link>
        {/* Add more categories as needed */}
     </div>
       {/* Description Section */}
@@ -454,14 +454,21 @@ kurti05:[
         ))}
       </div>
       <div style={{ display: 'flex', justifyContent: 'flex-end', margin: '30px' }}>
-      <Link to="/ " style={{ margin: '0 10px' }}>Home</Link>
-      <Link to="/category/kurti" style={{ margin: '0 10px' }}>Kurti @ 699</Link>
-      <Link to="/lehengas" style={{ margin: '0 10px' }}>Lehengas @ 999</Link>
-      <Link to="/category/kurti01" style={{ margin: '0 10px' }}>Kurti @ 460</Link>
-      <Link to="/category/kurti02" style={{ margin: '0 10px' }}>Kurti @ 340</Link>
-      <Link to="/category/kurti03" style={{ margin: '0 10px' }}>Kurti @ 399</Link>
-      <Link to="/category/kurti05" style={{ margin: '0 10px' }}>Zaarra Kurti @ 340</Link>
-       {/* Add more categories as needed */}
+      <div className="menu-toggle" onClick={toggleMenu}>
+        ☰ Categories
+      </div>
+
+      {/* Conditional rendering of the categories based on screen size */}
+      <div className="link-container">
+                <Link to="/" className="category-link">Home</Link>
+        <Link to="/category/kurti" className="category-link">Kurti @ 699</Link>
+        <Link to="/lehengas" className="category-link">Lehengas @ 999</Link>
+        <Link to="/category/kurti01" className="category-link">Kurti @ 460</Link>
+        <Link to="/category/kurti02" className="category-link">Kurti @ 340</Link>
+        <Link to="/category/kurti03" className="category-link">Kurti @ 399</Link>
+        <Link to="/category/kurti05" className="category-link">Zaarra Kurti @ 340</Link>
+      </div>
+
     </div>
     <p>Contact us: +91-9442533967</p>
       {/* Category Buttons */}
