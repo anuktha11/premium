@@ -33,14 +33,21 @@
   text-align: center;
   margin: 10px;
   width: 200px;
+  display: flex;
+  flex-direction: column;
 }
 
 .category-item img {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: auto;
+  aspect-ratio: 1 / 1; /* Ensures a square image regardless of size */
+  object-fit: cover; /* Crop the image to fit the square */
   border-radius: 8px;
   border: 2px solid black;
+}
+
+.category-info {
+  margin-top: 10px;
 }
 
 .category-info h3 {
@@ -72,7 +79,7 @@
 .lehenga-button {
   background-color: purple;
   color: white;
-  padding: 10px 20px;
+  padding: 20px 40px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -81,41 +88,27 @@
 .lehenga-button:hover {
   background-color: darkpurple;
 }
-.category-item {
-  position: relative;
+.contact-container {
   text-align: center;
+  margin-top: 20px;
+}
+
+.contact-option {
+  display: inline-block;
   margin: 10px;
-  width: 200px; /* Adjust as needed */
-}
-
-.category-item img {
-  width: 100%;
-  height: 200px; /* Set a fixed height for all images */
- /* object-fit: cover;  Ensure the image is cropped to fit */
-  border-radius: 8px;
-  border: 2px solid black; /* Add a black border */
-}
-
-.category-info {
-  margin-top: 10px;
-}
-
-.category-info h3 {
-  margin: 0;
+  padding: 10px 20px;
+  color: white;
+  background-color: #1b1b1b; /* Purple color */
+  border-radius: 5px;
   font-size: 18px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
-.price {
-  margin-top: 5px;
+.contact-option:hover {
+  background-color: #4a148c; /* Darker purple */
 }
 
-.original-price {
-  text-decoration: line-through;
-  color: red;
-  margin-right: 5px;
-}
-
-.offer-price {
-  color: green;
-  font-weight: bold;
-}
+.contact-option svg {
+  margin-right: 8px;
+} 

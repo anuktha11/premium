@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import './Home.css';
 import kurtiImage from '../images/dress/WhatsApp Image 2024-09-16 at 12.33.56 AM (2).jpeg';
 import embroideryKurtiImage from '../images/kurthi/1.jpeg';
@@ -20,11 +23,26 @@ const Home = () => {
     <div className="home-container">
       <div className="intro">
         <h1>Discover the Elegance of Quality Dresses</h1>
-        <p>Unmatched style, comfort, and design for every occasion.</p>
+        <p> Unique styles, comfort, and design for every occasion.</p>
+        {/* Call Button */}
+      <a href="tel:+911234567890" className="contact-option">
+        <FontAwesomeIcon icon={faPhone} /> Call Us
+      </a>
+
+      {/* WhatsApp Button */}
+      <a
+        href="https://wa.me/919442533967"   
+        target="_blank"
+        rel="noopener noreferrer"
+        className="contact-option"
+      >
+        <FontAwesomeIcon icon={faWhatsapp} /> WhatsApp Us
+      </a>
+
       </div>
 
       <div className="categories-section">
-        <h2>Explore by Category</h2>
+        <h2>Click On Image For Explore by Category</h2>
         <div className="categories-grid">
           {categories.map((category) => (
             <div key={category.name} className="category-item">
@@ -45,7 +63,7 @@ const Home = () => {
       {/* Add single purple "Lehenga" button at the bottom */}
       <div className="lehenga-section">
         <Link to="/lehengas">
-          <button className="lehenga-button">View Narayanpeta Lehengas</button>
+          <button className="lehenga-button">View Narayanpet Lehengas</button>
         </Link>
       </div>
     </div>

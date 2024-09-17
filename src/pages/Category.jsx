@@ -409,6 +409,7 @@ kurti05:[
   return (
     <div className="category-container">
       <div style={{ display: 'flex', justifyContent: 'flex-end', margin: '10px' }}>
+      <Link to="/ " style={{ margin: '0 10px' }}>Home</Link>
       <Link to="/category/kurti" style={{ margin: '0 10px' }}>Kurti @ 699</Link>
       <Link to="/lehengas" style={{ margin: '0 10px' }}>Lehengas @ 999</Link>
       <Link to="/category/kurti01" style={{ margin: '0 10px' }}>Kurti @ 460</Link>
@@ -452,7 +453,8 @@ kurti05:[
           </div>
         ))}
       </div>
-      <div style={{ display: 'flex', justifyContent: 'flex-end', margin: '10px' }}>
+      <div style={{ display: 'flex', justifyContent: 'flex-end', margin: '30px' }}>
+      <Link to="/ " style={{ margin: '0 10px' }}>Home</Link>
       <Link to="/category/kurti" style={{ margin: '0 10px' }}>Kurti @ 699</Link>
       <Link to="/lehengas" style={{ margin: '0 10px' }}>Lehengas @ 999</Link>
       <Link to="/category/kurti01" style={{ margin: '0 10px' }}>Kurti @ 460</Link>
